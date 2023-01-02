@@ -245,7 +245,6 @@ class RolesController extends Controller
         }
 
      }
-    //  UpdateCapabilities
     public function updateCapabilities(UpdateCapabilitiesRequest $request,$id,$privacy): JsonResponse
     {
         $capabilities = $request->input('capabilities');
@@ -281,7 +280,6 @@ class RolesController extends Controller
         }
 
     }
-    // UpdateCapabilities
     public function assignCapabilities(UpdateCapabilitiesRequest $request,$id,$privacy)
     {
         $capabilities = $request->input('capabilities');
