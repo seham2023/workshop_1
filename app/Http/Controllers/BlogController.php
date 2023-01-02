@@ -62,9 +62,7 @@ $blog->update($request->all());
 
 
 return $this->ApiResponse($blog,'updated successfuly',200);
-// $blog = Blog::find($id);
-// $blog->update($request->all());
-// return response()->json($blog, 201);
+
 }
 
 
